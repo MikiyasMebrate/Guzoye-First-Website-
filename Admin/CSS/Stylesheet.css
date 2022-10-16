@@ -1,0 +1,1175 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefefa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.topnav {
+  top: 0;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 60px gray;
+  z-index: 999;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+}
+
+.topnav a img {
+  position: relative;
+  top: 25px;
+  overflow: hidden;
+  width: 200px;
+}
+#space {
+  margin-right: 500px;
+  overflow: hidden;
+}
+
+.topnav button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 14.5px;
+  background-color: #002fff;
+  border-radius: 9px;
+  border-color: #1d45fa;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+
+.topnav button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.topnav a {
+  display: inline-block;
+  position: relative;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 15px;
+  top: -14px;
+}
+
+.topnav a:hover {
+  color: #1d45fa;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 1300px) {
+  .topnav a:not(:first-child) {
+    display: none;
+    overflow: hidden;
+  }
+  .topnav a.icon {
+    margin-top: 20px;
+    font-size: 40px;
+    float: right;
+    overflow: hidden;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .topnav.responsive {
+    position: relative;
+    overflow: hidden;
+    margin-top: -10px;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    margin-top: 30px;
+    font-size: 40px;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    margin-top: 20px;
+    float: none;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+  }
+}
+
+.main {
+  background-image: url("../image/insideBus1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.main h1 {
+  font-size: 30px;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 100px;
+  color: white;
+  height: 150px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#card {
+  background-color: #fefefa;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  margin-top: -80px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px gray;
+}
+
+.Title {
+  padding: 30px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.in {
+  display: inline-block;
+  padding-right: 25px;
+}
+.in label {
+  font-size: 130%;
+}
+.in input {
+  width: 230px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #e6e6e675;
+  border: 1px solid #e6e6e675;
+}
+.in #num {
+  width: 150px;
+}
+
+#maincontent p {
+  display: inline;
+  font-size: 10px;
+  margin-right: 100px;
+  position: relative;
+  left: 60px;
+  bottom: 30px;
+  color: red;
+  overflow: hidden;
+}
+
+.in input:hover,
+textarea:hover {
+  border-color: #1d45fa;
+  overflow: hidden;
+}
+.in input:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 20px #719ece;
+}
+
+.Title button {
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 15.5px;
+  background-color: #002fff;
+  border-radius: 9px;
+  border-color: #1d45fa;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+.Title button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.steps {
+  margin-top: 50px;
+}
+.steps ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+.steps ul li {
+  display: inline-block;
+  margin-top: 30px;
+}
+.steps ul li p {
+  display: inline-block;
+  position: relative;
+  top: -25px;
+  right: 16px;
+}
+#bodycontainer {
+  background-color: #f0f2f7;
+}
+
+#bodymain {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  border-radius: 2px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+#bodymain h2,
+p {
+  margin: 25px;
+  text-align: justify;
+  line-height: 2;
+  color: #425486;
+}
+
+#bodymain h2 {
+  font-family: "Sora", sans-serif;
+  font-weight: 900;
+  font-size: 200%;
+  color: #1033cf;
+}
+
+#bodymain ul {
+  line-height: 1.8;
+  color: #425486;
+}
+
+#offer ul {
+  list-style: none;
+  text-align: center;
+}
+
+#offer ul li {
+  display: inline-block;
+}
+
+#offer ul li p {
+  position: relative;
+  top: -50px;
+  left: 40px;
+}
+
+#footer {
+  background-color: #e6e6e675;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+#footer div {
+  padding-top: 20px;
+  width: 440px;
+  display: inline-block;
+}
+#footer div p {
+  text-align: center;
+}
+#footer img {
+  position: relative;
+  top: 15px;
+  width: 220px;
+}
+#footer a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+#footer h2 {
+  color: #1d45fa;
+}
+
+#footer a:hover {
+  color: #002fff;
+}
+
+#footerbottom {
+  background-color: #343434;
+  clear: both;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  color: white;
+  text-align: center;
+  font-size: 100%;
+}
+/*Login Page*/
+#path {
+  background-color: #e6e6e675;
+  float: left;
+  width: 100%;
+  height: 110px;
+  margin-bottom: 50px;
+}
+#path div {
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+  left: 50px;
+}
+#path div a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+#User_Login {
+  clear: both;
+  max-width: 800px;
+  border-radius: 5px;
+  background-color: #fefefa;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  margin-top: -80px;
+  border-radius: 30px;
+  box-shadow: 0px 10px 60px gray;
+}
+#User_Login div img {
+  width: 300px;
+}
+#User_Login div {
+  display: inline-block;
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 50px;
+  height: 400px;
+  text-align: center;
+}
+#Login_Form h2 {
+  text-align: center;
+}
+#Login_Form input {
+  width: 230px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #e6e6e675;
+  border: 1px solid #e6e6e675;
+  margin: 10px;
+}
+
+#Login_Form input:hover {
+  border-color: #1d45fa;
+}
+#Login_Form input:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+
+#button-login {
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 15.5px;
+  background-color: #002fff;
+  border-radius: 9px;
+  border-color: #1d45fa;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+#button-login:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+#Login_Form a {
+  text-decoration: none;
+  color: black;
+}
+
+#Login_Form a:hover {
+  color: #002fff;
+}
+
+/*Sign UP*/
+
+#User_signup {
+  clear: both;
+  border-radius: 5px;
+  background-color: #fefefa;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  border-radius: 30px;
+  box-shadow: 0px 10px 60px gray;
+}
+#User_signup div img {
+  width: 150px;
+}
+#User_signup div ul {
+  text-align: left;
+}
+
+#User_signup div p {
+  font-weight: bold;
+}
+#User_signup div {
+  display: inline-block;
+  width: 45%;
+  margin-right: 10px;
+  margin-left: 5px;
+  text-align: center;
+}
+#form input {
+  width: 230px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #e6e6e675;
+  border: 1px solid #e6e6e675;
+}
+
+#form input:hover {
+  border-color: #1d45fa;
+}
+
+#form input:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+
+#submitbtn {
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 15.5px;
+  background-color: #002fff;
+  border-radius: 9px;
+  border-color: #1d45fa;
+  opacity: 0.7;
+  transition: 0.4s;
+  position: relative;
+  bottom: 50px;
+}
+#submitbtn:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+#Login_Form h2 {
+  text-align: center;
+}
+
+#form p {
+  margin-bottom: -5px;
+  font-size: 10px;
+  position: relative;
+  color: red;
+  bottom: 23px;
+}
+#Login_Form input {
+  width: 230px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #e6e6e675;
+  border: 1px solid #e6e6e675;
+  margin: 0;
+}
+#Login_Form input:hover {
+  border-color: #1d45fa;
+}
+#Login_Form input:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
+}
+
+#Login_Form p {
+  position: relative;
+  font-size: 10px;
+  bottom: 27px;
+  left: 40px;
+  color: red;
+  margin-bottom: -5px;
+}
+#button-login {
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 15.5px;
+  background-color: #002fff;
+  border-radius: 9px;
+  border-color: #1d45fa;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+#button-login:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+#Login_Form a {
+  text-decoration: none;
+  color: black;
+}
+
+#Login_Form a:hover {
+  color: #002fff;
+}
+
+/*Booking*/
+#book {
+  clear: both;
+  position: relative;
+  text-align: center;
+}
+
+#book h2 {
+  margin: 30px;
+  font-size: 30px;
+  margin-right: 1100px;
+}
+
+.ticket {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 970px;
+  border: 1px solid gray;
+  box-shadow: 0 0 30px gray;
+  text-align: left;
+}
+
+.ticket ul {
+  list-style: none;
+}
+.ticket ul li {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding-left: 10px;
+}
+
+.ticket p {
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  left: 185px;
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-size: 10px;
+  margin-right: 225px;
+  margin-top: 20px;
+}
+.ticket h4 {
+  font-weight: normal;
+  margin-left: 30px;
+}
+.ticket ul li input {
+  margin-right: 20px;
+  width: 230px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #e6e6e675;
+  border: 1px solid #e6e6e675;
+}
+
+/*Contact*/
+
+#con-email {
+  clear: both;
+  background-color: #e6e6e675;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  text-align: center;
+}
+#con-email img {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#con-email h1 {
+  text-align: center;
+  margin: 3px;
+}
+
+#con-email h3 {
+  font-weight: normal;
+  margin-top: 0;
+}
+#con-email p {
+  color: red;
+  font-size: 10px;
+  position: relative;
+  bottom: 26px;
+  right: 25px;
+  margin-bottom: -5px;
+}
+
+#con-email input,
+textarea {
+  display: block;
+  width: 400px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.in textarea {
+  height: 150px;
+}
+
+/*Abount and Team and Condition*/
+#about {
+  clear: both;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#about h3 {
+  clear: both;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*FAQ*/
+
+.accordion {
+  clear: both;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion .contenBx {
+  position: relative;
+  margin: 10px 20px;
+}
+
+.accordion .contenBx .label {
+  position: relative;
+  padding: 15px;
+  background: #4270ee;
+  color: #fff;
+  cursor: pointer;
+}
+
+.accordion .contenBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.accordion .contenBx .content {
+  position: relative;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.accordion .contenBx.act .content {
+  height: 320px;
+  padding: 10px;
+}
+
+.accordion .contenBx.act .label::before {
+  content: "-";
+}
+
+/*Admin Page*/
+
+#Adminbkimg {
+  background-image: url("../image/AdminBk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  padding-top: 370px;
+  margin: 0 auto;
+}
+#AdminImage {
+  clear: both;
+  text-align: center;
+}
+#AdminImage p {
+  margin: 0;
+  text-align: center;
+}
+
+#AdminImage img {
+  width: 300px;
+}
+
+#AdminImage h2 {
+  color: #4270ee;
+}
+
+#loginbtn {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+#pathAdmin {
+  background-color: #e6e6e675;
+  float: left;
+  width: 100%;
+  height: 70px;
+}
+#pathAdmin div {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+}
+#pathAdmin div a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+/*Admin Login*/
+
+#AdminContiner {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  position: relative;
+  top: 50px;
+  background-color: #fefefa;
+  border-radius: 20px;
+  box-shadow: 0px 10px 60px gray;
+  text-align: center;
+}
+
+#AdminContiner img {
+  margin-top: 10px;
+  width: 70px;
+}
+
+#AdminContiner h3 {
+  font-weight: normal;
+  margin-top: 0;
+}
+#AdminContiner form input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 230px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #e6e6e675;
+  border: 1px solid #e6e6e675;
+}
+
+#AdminContiner p {
+  position: relative;
+  color: red;
+  margin: 0%;
+  width: 200px;
+  left: 235px;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+#AdminContiner form button {
+  margin-top: 80px;
+}
+
+#AdminContiner input:hover,
+textarea:hover {
+  border-color: #1d45fa;
+}
+#AdminContiner input:focus {
+  outline: none !important;
+  border-color: #719ece;
+  box-shadow: 0 0 20px #719ece;
+}
+
+/*Admin Main Page*/
+
+#VerticalNav {
+  clear: both;
+  background-color: #d2ebf5;
+  max-width: 20%;
+  text-align: center;
+  height: 900px;
+}
+
+#VerticalNav img {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  display: block;
+}
+
+#VerticalNav p {
+  text-align: center;
+  margin: 0;
+}
+
+#Verstate a {
+  text-decoration: none;
+  padding-right: 105px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#Verstate {
+  text-align: left;
+  margin: 10px;
+  padding-left: 10px;
+  width: 260px;
+  margin-left: 0;
+}
+#Verstate:hover {
+  background-color: white;
+}
+
+#Verstate img {
+  display: inline-block;
+  width: 25px;
+}
+#Verstate p {
+  display: inline-block;
+  font-size: 20px;
+}
+
+#cont_AdminHome div {
+  display: inline-block;
+}
+#cont_AdminHome #bodyadmin {
+  position: relative;
+  bottom: 900px;
+  display: block;
+  max-width: 80%;
+  left: 270px;
+  margin-left: 10px;
+}
+
+#bodyadmin p {
+  color: #2c97c9;
+  display: inline;
+  margin: 0;
+  font-size: 20px;
+}
+
+#table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  overflow: scroll;
+}
+
+#table td,
+#table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table tr:hover {
+  background-color: #ddd;
+}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #63c5ea;
+  color: white;
+}
+/*Successfully Created */
+
+#AccountCreate {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-top: 60px;
+  box-shadow: 0px 10px 30px gray;
+}
+
+#AccountCreate div {
+  background-color: #4bb543;
+  text-align: center;
+}
+#AccountCreate div p {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+#AccountCreate div img {
+  margin-top: 20px;
+  width: 100px;
+}
+
+#AccountCreate p {
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+}
+
+#AccountCreate {
+  text-align: center;
+}
+
+#AccountCreate a {
+  position: relative;
+  top: 40px;
+}
+
+/*Print Travel*/
+#ticketcontainer {
+  height: 560px;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0px 10px 30px gray;
+}
+
+#ticketcontainer #ticketupper {
+  height: 170px;
+  background-color: rgb(28, 93, 231);
+  text-align: center;
+}
+
+#ticketcontainer #ticketupper h4 {
+  color: white;
+  font-size: large;
+  text-align: center;
+  font-weight: normal;
+}
+
+#ticketcontainer #ticketupper img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  bottom: 20px;
+  width: 70px;
+}
+#ticketcontainer #ticketupper p {
+  position: relative;
+  bottom: 15px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+#tableprint tr {
+  height: 34.5px;
+}
+
+#tableprint td p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+  border-bottom: 1px solid gray;
+}
+
+#btnposition {
+  position: relative;
+  top: 55px;
+  display: inline;
+}
+
+#errorretive {
+  height: 350px;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  box-shadow: 0px 10px 30px gray;
+}
+#errorretive img {
+  width: 100px;
+  position: relative;
+  bottom: 40px;
+}
+#errorretive h1 {
+  margin: 5px;
+}
+#errorretive p {
+  margin: 0;
+  text-align: center;
+  font-size: 17px;
+}
+
+#OK {
+  margin-top: 30px;
+  background-color: #e9444f;
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+#OK:hover {
+  background-color: red;
+}
+
+/*Dashbord*/
+#dash {
+  display: inline-block;
+}
+#dash2 {
+  display: inline-block;
+}
+
+#dash2 {
+  margin-top: -50px;
+  display: inline-block;
+}
+.dashcard {
+  width: 250px;
+  height: 190px;
+  background-color: white;
+  margin: 5px;
+  box-shadow: 10px 10px 10px rgb(173, 173, 173);
+}
+.dashcard .line {
+  background-color: #4a5fc1;
+  width: 10px;
+  height: 190px;
+}
+
+.dashcard .title {
+  background-color: #4a5fc1;
+  position: relative;
+  top: -160px;
+  margin-left: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#dash .dashcard .title p {
+  color: white;
+  margin: 0;
+}
+.titleinfo {
+  position: relative;
+  top: -180px;
+  margin-left: 24px;
+  margin-top: 10px;
+  font-size: large;
+  color: gray;
+}
+
+.count {
+  color: gray;
+  position: relative;
+  top: -130px;
+  left: -120px;
+  font-size: 25px;
+}
+
+#dash a,
+#dash2 a {
+  text-decoration: none;
+  color: #4a5fc1;
+  position: relative;
+  top: -100px;
+  left: 25px;
+  font-size: 20px;
+  padding: 0;
+  margin-left: 100px;
+}
+#dash a:hover,
+#dash2 a:hover {
+  font-weight: 600;
+}
+#dash h2,
+#dash p,
+#dash2 h2,
+#dash2 p {
+  margin: 0;
+}
+
+/*Edit and delete button*/
+#actionbusdelete {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  background-color: #f75435;
+  border-color: #f75435;
+  border-radius: 3px;
+}
+
+#actionbusedit {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: white;
+  background-color: #4eb1b3;
+  border-color: #4eb1b3;
+  width: 70px;
+  border-radius: 3px;
+}
+
+#actionbusdelete:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+#actionbusedit:hover {
+  cursor: pointer;
+  background-color: #178586;
+}
+
+/*Add BUS*/
+#addbus {
+  color: #ffffff;
+  border-color: #4eb1b3;
+  height: 30px;
+  cursor: pointer;
+  background-color: #4eb1b3;
+}
+
+#addbus:hover {
+  background-color: #178586;
+}
+
+#logout {
+  position: relative;
+  left: 900px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  width: 120px;
+  color: white;
+  font-size: 14.5px;
+  background-color: #002fff;
+  border-radius: 9px;
+  border-color: #1d45fa;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+
+#logout:hover {
+  cursor: pointer;
+  opacity: 1;
+}
